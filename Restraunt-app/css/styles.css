@@ -1,0 +1,118 @@
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif; */
+
+/*-------------------BASIC CHANGES---------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    line-height: 140%;
+}
+.my-name{
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+/*----------------------ELEMENTS-------------------------*/
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: whitesmoke;
+    font-size: 3rem;
+    padding: 300px 0 0;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+h5{
+    margin:0px 0px;
+}
+
+
+/*-----------------------HEADER---------------------------*/
+
+#header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img1/home-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-main-links{
+    justify-content: center;
+}
+
+.header-nav-item{
+    margin: 0px 12px;
+    font-size: 1.15rem;
+}
+
+.header-nav-btn{
+    justify-self: flex-end;
+}
+
+.header-p {
+    color: whitesmoke;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    display: inline-block;
+/*--------------------section----------------------*/
+}
+.card-set{
+    display: flex;
+    justify-content: center;
+    margin: 40px 15px;
+}
+.h-100{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:0px 30px;
+}
+.card-img-top-0{
+    height:465px
+}
+.card img{
+
+    border-radius: 8px;
+    padding:5px;
+}
+.card-text:last-child{
+    margin-bottom: 23px;
+}
+/*---------------------Footer------------------------ */
+#about{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-img{
+    width:250px;
+    height:auto;
+    rotate: -18deg;
+}
+.about-img-resize{
+    margin: 25px 8px;
+    height: 250px;
+    width:250px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.about-p{
+    text-align:left;
+    width:50%;
+    display: inline-block;
+}
+#about{
+    border:1.3px solid rgba(135, 133, 133, 0.374);
+    margin:19px 60px;
+    border-radius: 5px;;
+}
+.total{
+    display :flex;
+    justify-content: center;
+}
+

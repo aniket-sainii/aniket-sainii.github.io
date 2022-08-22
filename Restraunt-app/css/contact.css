@@ -1,0 +1,129 @@
+/*---------basic changes------ */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.heading{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    padding: 270px 0 0;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+/*----------------Header----------------- */
+#header{
+    background-image: url(img1/contact.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-p {
+    color: rgb(0, 0, 0);
+    margin: 0.5rem 0;
+    font-size: 1.6rem;
+    display: inline-block;
+}
+.header-main-links{
+    display: flex;
+    justify-content: center;
+}
+.header-nav-item{
+    margin: 0px 12px;
+    font-size: 1.15rem;
+}
+/* -----------section-------- */
+.section{
+    background-image: url(img1/billboard2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.location{
+display: flex;
+height: auto;
+width: auto;
+overflow: hidden;
+padding: 90px 40px;
+}
+.loc-img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-self: left;
+    height: auto;
+    width:60%;
+}
+.icon{
+    
+    height: 64px;
+    width: 17%;
+}
+.address{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.address p{
+    margin:30px 37px;
+    color:#838181;
+}
+.address h4{
+    margin-top:50px;
+}
+/*----------form--------*/
+.form-inside{
+    background-image: url(img1/billboard.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.form{
+    border-radius: 5px;
+    border:1.5px solid whitesmoke;
+    background-color:#3c3c3c;
+    padding: 20px 45px;
+    height: 510px;
+    width:45%;
+}
+.text-area{
+    display: block;
+    width: 85%;
+    height: 146px;
+    margin: 35px;
+}
+input[type=text], input[type=email]{
+    display: block;
+    width: 85%;
+    margin: 35px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}    
+input[type=button]:hover {
+    background-color: #392bff;
+}
+.button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    width:85%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-head{
+    background-color:aliceblue;
+    height:100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:35px;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}

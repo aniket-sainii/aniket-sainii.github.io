@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+      <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@200;300;600&display=swap"
+    rel="stylesheet">
+  </head>
+<body>
+        <header id="header" class="container-fluid">
+            <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Aniket</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                  aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse header-main-links" id="navbarColor01">
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item header-nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item header-nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item header-nav-item">
+                      <a class="nav-link" href="index.html">About</a>
+                    </li>
+                  </ul>
+                </div>
+                <button href="#container" type="button" class="btn btn-outline-light header-nav-btn">Go to cart</button>
+              </div>
+        </header>
+        <section class="all-cards">
+          <div class="card-block1">
+        <div><div class="card " >
+            <img src="img/taste.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dish1 ₹40</h5>
+              <a class="btn btn-primary add-cart add-cart-1">Add to cart</a>
+            </div>
+          </div></div>
+        <div><div class="card ">
+            <img src="img/taste.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dish2 ₹40</h5>
+              <a class="btn btn-primary add-cart add-cart-2">Add to cart</a>
+            </div>
+          </div></div>
+        <div><div class="card ">
+            <img src="img/taste.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dish3 ₹40</h5>
+              <a class="btn btn-primary add-cart add-cart-3">Add to cart</a>
+            </div>
+          </div></div>
+        <div><div class="card ">
+            <img src="img/taste.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dish4 ₹40</h5>
+              <a class="btn btn-primary add-cart add-cart-4">Add to cart</a>
+            </div>
+          </div></div>
+        </div>
+          <div class="card-block2">
+        <div><div class="card " >
+            <img src="img/taste.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dish5 ₹40</h5>
+              <a class="btn btn-primary add-cart add-cart-5">Add to cart</a>
+            </div>
+          </div></div>
+        <div><div class="card ">
+            <img src="img/taste.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dish6 ₹40</h5>
+              <a class="btn btn-primary add-cart add-cart-6">Add to cart</a>
+            </div>
+          </div></div>
+        <div><div class="card ">
+            <img src="img/taste.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dish7 ₹40</h5>
+              <a class="btn btn-primary add-cart add-cart-7">Add to cart</a>
+            </div>
+          </div></div>
+        <div><div class="card ">
+            <img src="img/taste.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dish8 ₹40</h5>
+              <a class="btn btn-primary add-cart add-cart-8">Add to cart</a>
+            </div>
+          </div></div>
+          </div>
+        </section>
+
+
+        <!-- CART -->
+        <div id="container">
+          <div class="shopping">
+            <h1> Shopping Cart</h1>
+            <button type="button" id="order">Order now</button>
+          </div>
+          <div class="cart">
+              <p class="cart-head">Dish1</p>
+              <a><img src="img/increment.png" class="cart-btn-1" alt=".."></a>
+              <p class="price">0</p>
+              <a><img src="img/decrement.png" class="cart-btn-2" alt=".."></a>
+          </div>
+          <div class="cart">
+            <p class="cart-head">Dish2</p>
+            <a><img src="img/increment.png" class="cart-btn-1" alt=".."></a>
+            <p class="price">0</p>
+            <a><img src="img/decrement.png" class="cart-btn-2" alt=".."></a>
+            </div>
+          <div class="cart">
+            <p class="cart-head">Dish3</p>
+            <a><img src="img/increment.png" class="cart-btn-1" alt=".."></a>
+            <p class="price">0</p>
+            <a><img src="img/decrement.png" class="cart-btn-2" alt=".."></a>
+          </div>
+          <div class="cart">
+            <p class="cart-head">Dish4</p>
+            <a><img src="img/increment.png" class="cart-btn-1" alt=".."></a>
+            <p class="price">0</p>
+            <a><img src="img/decrement.png" class="cart-btn-2" alt=".."></a>
+          </div>
+          <div class="cart">
+            <p class="cart-head">Dish5</p>
+            <a><img src="img/increment.png" class="cart-btn-1" alt=".."></a>
+            <p class="price">0</p>
+            <a><img src="img/decrement.png" class="cart-btn-2" alt=".."></a>
+          </div>
+          <div class="cart">
+            <p class="cart-head">Dish6</p>
+            <a><img src="img/increment.png" class="cart-btn-1" alt=".."></a>
+            <p class="price">0</p>
+            <a><img src="img/decrement.png" class="cart-btn-2" alt=".."></a>
+          </div>
+          <div class="cart">
+            <p class="cart-head">Dish7</p>
+            <a><img src="img/increment.png" class="cart-btn-1" alt=".."></a>
+            <p class="price">0</p>
+            <a><img src="img/decrement.png" class="cart-btn-2" alt=".."></a>
+          </div>
+          <div class="cart">
+            <p class="cart-head">Dish8</p>
+            <a><img src="img/increment.png" class="cart-btn-1" alt=".."></a>
+            <p class="price">0</p>
+            <a><img src="img/decrement.png" class="cart-btn-2" alt=".."></a>
+          </div>
+          <div class="total">
+            <h3>Sub-total = </h3>
+            <h4 class="value">0</h4>
+          </div>
+      </div>
+
+      <!-- CART JS -->
+      <script src="img/script/cart.js"></script>
+          <!-- BOOTSTRAP SCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+  crossorigin="anonymous"></script>
+       
+</body>
+</html0

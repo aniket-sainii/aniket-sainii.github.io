@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+    .header-nav-btn{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    .card-block2{
+        display: block;
+    }
+    .card-block1{
+        display: block;
+    }
+}
